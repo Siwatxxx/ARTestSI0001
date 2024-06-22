@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="background: transparent;"></canvas>
+      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/V4.loader.js";
+      var loaderUrl = buildUrl + "/V0622A.loader.js";
       var config = {
-        dataUrl: buildUrl + "/V4.data.unityweb",
-        frameworkUrl: buildUrl + "/V4.framework.js.unityweb",
-        codeUrl: buildUrl + "/V4.wasm.unityweb",
+        dataUrl: buildUrl + "/V0622A.data.unityweb",
+        frameworkUrl: buildUrl + "/V0622A.framework.js.unityweb",
+        codeUrl: buildUrl + "/V0622A.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "AR_HostOnGithub",
